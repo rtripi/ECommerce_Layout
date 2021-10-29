@@ -1,0 +1,35 @@
+@import "./main.css";
+
+.row-2 {
+  justify-content: space-between;
+  margin: 106.25rem auto 3.12rem;
+}
+
+select {
+  border: 1px solid var(--secondaryColor);
+  padding: 5px;
+}
+
+select:focus {
+  outline: none;
+}
+
+.page-btn {
+  margin: 0 auto 5rem;
+}
+
+.page-btn span {
+  display: inline-block;
+  border: 1px solid var(--secondaryColor);
+  margin-left: 10px;
+  width: 2.5rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  cursor: pointer;
+}
+
+.page-btn span:hover {
+  background: var(--secondaryColor);
+  color: white;
+}
