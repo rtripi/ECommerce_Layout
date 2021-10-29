@@ -1,0 +1,68 @@
+@import "./main.css";
+
+.cart-page {
+  margin: 5rem auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+th {
+  text-align: left;
+  padding: 5px;
+  color: white;
+  background: var(--secondaryColor);
+  font-weight: normal;
+}
+
+td {
+  padding: 0.625rem 5px;
+}
+
+td input {
+  width: 2.5rem;
+  height: 1.8rem;
+  padding: 5px;
+}
+
+td a {
+  color: var(--secondaryColor);
+  font-size: 0.75rem;
+}
+
+td img {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 0.625rem;
+}
+
+.total-price {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.total-price table {
+  border-top: 3px solid var(--secondaryColor);
+  width: 100%;
+  max-width: 400px;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+th:last-child {
+  text-align: right;
+}
+
+@media only screen and (max-width: 600px) {
+  .cart-info p {
+    display: none;
+  }
+}

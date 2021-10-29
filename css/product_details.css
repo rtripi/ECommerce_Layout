@@ -1,0 +1,72 @@
+@import "./main.css";
+
+.single-product {
+  margin-top: 5rem;
+}
+
+.single-product col-2 img {
+  padding: 0;
+}
+
+.single-product .col-2 {
+  padding: 1.25rem;
+}
+
+.single-product h4 {
+  margin: 1.25rem 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.single-product select {
+  display: block;
+  margin: 1.25rem;
+  padding: 0.625rem;
+}
+
+.single-product input {
+  width: 3.125rem;
+  height: 2.5rem;
+  padding-left: 0.625rem;
+  font-size: 1.25rem;
+  margin-right: 0.625rem;
+  border: 1px solid var(--secondaryColor);
+}
+
+.single-product input:focus {
+  outline: none;
+}
+
+.single-product .fa {
+  color: var(--secondaryColor);
+  margin-left: 0.625rem;
+}
+
+.small-img-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sml-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+@media screen and(max-width:600px) {
+  .single-product .row {
+    text-align: left;
+  }
+  .single-product .col-2 {
+    padding: 1.2rem 0;
+  }
+  .single-product h1 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .single-product select {
+    margin: auto;
+  }
+}

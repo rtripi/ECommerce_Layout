@@ -21,6 +21,15 @@ h4 {
 ul {
   list-style-type: none;
 }
+
+select {
+  border: 1px solid var(--secondaryColor);
+  padding: 5px;
+}
+
+select:focus {
+  outline: none;
+}
 /*GENERAL*/
 
 .container {
