@@ -5,36 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <!--G FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Ecommerce Layout</title>
   </head>
   <body>
-    <div class="container">
-      <div class="navbar">
-        <div class="logo">
-          <img src="images/logo.png" alt="logo" width="125px" />
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo" width="125px" />
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Products</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Account</a></li>
+            </ul>
+          </nav>
+          <img src="./images/cart.png" width="30px" height="30px" />
         </div>
 
-        <nav>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Products</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Account</a></li>
-          </ul>
-        </nav>
+        <div class="row">
+          <div class="col-2">
+            <h1>Give Your Workout <br />A New Style!</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              <br />Impedit eos, accusantium quaerat ullam animi vel.
+            </p>
+            <a href="" class="btn">Explore Now &#10132;</a>
+          </div>
+          <div class="col-2">
+            <img src="./images/image1.png" />
+          </div>
+        </div>
       </div>
+    </div>
 
-      <div class="row">
-        <div class="col-2">
-          <h1>Give Your Workout <br />A New Style!</h1>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            <br />Impedit eos, accusantium quaerat ullam animi vel.
-          </p>
-        </div>
-        <div class="col-2">
-          <img src="./images/image1.png" />
+    <!--------- featured categories ------->
+
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="./images/category-1.jpg" />
+          </div>
+          <div class="col-3"><img src="./images/category-2.jpg" /></div>
+          <div class="col-3"><img src="./images/category-3.jpg" /></div>
         </div>
       </div>
     </div>
