@@ -13,6 +13,15 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: var(--primaryColor);
+}
+
+p {
+  color: var(--primaryColor);
+}
+
 h4 {
   color: var(--primaryColor);
   font-weight: normal;
@@ -134,15 +143,6 @@ nav ul {
 nav ul li {
   display: inline-block;
   margin-right: 1.25rem;
-}
-
-a {
-  text-decoration: none;
-  color: var(--primaryColor);
-}
-
-p {
-  color: var(--primaryColor);
 }
 
 .col-2 img {

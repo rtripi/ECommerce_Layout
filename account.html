@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/cart.css" />
+    <link rel="stylesheet" href="./css/account.css" />
     <!--G FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,7 +17,7 @@
       src="https://kit.fontawesome.com/ccde67fc05.js"
       crossorigin="anonymous"
     ></script>
-    <title>Cart</title>
+    <title>Account</title>
   </head>
   <body>
     <div class="container">
@@ -44,77 +44,38 @@
       </div>
     </div>
 
-    <!--Cart Details-->
+    <!--Account page-->
+    <div class="account-page">
+      <div class="container">
+        <div class="row">
+          <div class="col-2">
+            <img src="./images/image1.png" width="100%" />
+          </div>
 
-    <div class="small-container cart-page">
-      <table>
-        <tr>
-          <th>Product</th>
-          <th>Quantity</th>
-          <th>Subtotal</th>
-        </tr>
-        <tr>
-          <td>
-            <div class="cart-info">
-              <img src="./images/buy-1.jpg" />
-              <div>
-                <p>Red Printed T-shirt</p>
-                <small>Price $50.00</small>
-                <a href="#">Remove</a>
+          <div class="col-2">
+            <div class="form-container">
+              <div class="form-btn">
+                <span id="loginBtn">login</span>
+                <span id="regBtn">Register</span>
+                <hr id="indicator" />
               </div>
-            </div>
-          </td>
-          <td><input type="number" value="1" /></td>
-          <td>$50.00</td>
-        </tr>
-        <tr>
-          <td>
-            <div class="cart-info">
-              <img src="./images/buy-2.jpg" />
-              <div>
-                <p>Red Printed T-shirt</p>
-                <small>Price $90.00</small>
-                <a href="#">Remove</a>
-              </div>
-            </div>
-          </td>
-          <td><input type="number" value="1" /></td>
-          <td>$90.00</td>
-        </tr>
-        <tr>
-          <td>
-            <div class="cart-info">
-              <img src="./images/buy-3.jpg" />
-              <div>
-                <p>Red Printed T-shirt</p>
-                <small>Price $60.00</small>
-                <a href="#">Remove</a>
-              </div>
-            </div>
-          </td>
-          <td><input type="number" value="1" /></td>
-          <td>$60.00</td>
-        </tr>
-      </table>
 
-      <div class="total-price">
-        <table>
-          <tr>
-            <td>Subtotal</td>
-            <td>$200.00</td>
-          </tr>
-          <tr>
-            <td>Tax</td>
-            <td>$35.00</td>
-          </tr>
-          <tr>
-            <td>Subtotal</td>
-            <td>$235.00</td>
-          </tr>
-        </table>
+              <form id="login-form">
+                <input type="text" placeholder="Username" />
+                <input type="password" placeholder="Password" />
+                <button type="submit" class="btn">Login</button>
+                <a href="#">Forgot password</a>
+              </form>
+              <form id="reg-form">
+                <input type="text" placeholder="Username" />
+                <input type="email" placeholder="Email" />
+                <button type="submit" class="btn">Register</button>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-
     <!--------- footer ------->
 
     <div class="footer">
@@ -160,5 +121,6 @@
     </div>
 
     <script src="./app.js"></script>
+    <script src="./forms.js"></script>
   </body>
 </html>
